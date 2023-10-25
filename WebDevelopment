@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    
+    <link href="https://www.rajalakshmi.org/ICPERES2023">
+    <link rel="stylesheet" href="style.css">
+    <img src="D:\Rajalakshmi_Engineering_College_(REC)_Chennai_Logo.jpg"
+    style="float:left;width:130px;height:100px;">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+ </head>
+ <main>
+   <body>
+     <h1 class="flavor" >
+    
+      <b>Rajalakshmi Engineering college</b><br>An autonomous institution </br>Affilated to anna university,chennai
+      <div>
+        THIRD INTERNATIONAL CONFERENCE ON POWER ELECTRONICS AND RENEWABLE<br> 
+        ENERGY SYSTEMS (ICPERES 20203)</br>
+        APRIL 28-29,2023.<br>
+        DEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING </br>
+        RAJALAKSHMI ENGINEERING COLLEGE,<br>
+        INDIA, TAMILANDU 600 105</br>
+        </div>
+        
+      </h1>
+      <label class="box">Home</label>      
+      <label class="Important">Important Dates</label>
+      <label class="reg">Registration</label>>
+      <label class="con">Contact Us</label>
+      </label>
+
+      
+      
+      
+     
+      <div class="add">
+        <h2>Publications</h2>
+        </div>
+        <div class="sub">Proceeding of ICEPERS-2023 
+      </div>
+      <div class="mul">will be published in </div>
+      <div class=" aip">AIP Conference proceedings</div>
+      <div class="index">(Indexed in Scopus,Web of Science </div>
+      <div class="thomp">(Thomson Reuters),Inspec,CAS.INIS,NASA-ADS)</div>   
+      <div class="djn"></div>
+      <div class="lin"></div>
+      <div class="ver">ICEPERs-2023</div>
+      <div class="second"><marquee  behavior="scroll"width="100%" direction="left" onmouseover="this.stop();"
+        onmouseout="this.start();" >
+        <b>INTERNATIONAL CONFERENCE ON POWER ELECTRONICS AND RENEWABLE ENERGY (ICEPERS-2023) &ensp; |  &ensp;  PAPER SUBMISIION LAST DATE MARCH 10,2023.</b>
+      
+      </marquee></div> 
+      <div class="b1">     
+      <i class="fas fa-play">About the conference</i>
+      </div>
+      <section>
+      <p class="te">
+         With the expertise gained through extensive Research, Consultancy,
+         publications and conduct of two International Conferences in earlier years,
+         the department is now organizing the Third International Conference on
+          Power Electronics and Renewable Energy Systems (ICPERES 2023) to be held
+         during April 28-29, 2023. In the last three decades considerable developments have taken place in the design and operations of Renewable
+         energy systems. There is also an increase emphasis on maintaining power
+         quality. The objective of the Conference is to provide a platform for academicians, researchers and practicing engineers to present their research
+         findings and developmental activities in the broad areas of Power Electronics,
+         Renewable Energy systems power systems, Micro Grid formation, operation
+         and control, IOT,etc. All the selected papers will be published in the
+         conference proceedings.</p>
+ </section>
+</div>
+    
+    
+  
+   </body>
+ </main>
+h1{
+    font-size:large;
+    color:rgb(100,100,200);
+}
+div{
+    position:absolute;
+    top:1.5em;
+    right:300px;
+}
+body{
+    height:200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:burlywood;
+    mask-border-outset: 100px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+.box{
+    width:45px;
+    height:19px;
+    border:1px solid green;
+    background-color: rgb(143, 236, 185);
+    color:white;
+    position:absolute;
+    top:180px;
+    right:700px;
+    border-radius:5px;
+}
+
+
+.Important{
+    width:110px;
+    height:19px;
+    border:1px solid green;
+    background-color: green;
+    color:white;
+    position:absolute;
+    top:180px;
+    right:580px;
+    border-radius:5px;
+}
+.reg{
+    width:85px;
+    height:19px;
+    border:1px solid green;
+    background-color: green;
+    color:white;
+    position:absolute;
+    top:180px;
+    right:490px;
+    border-radius:5px;
+}
+.con{
+    width:77px;
+    height:19px;
+    border:1px solid green;
+    background-color: green;
+    color:white;
+    position:absolute;
+    top:180px;
+    right:400px;
+    border-radius:5px;
+    
+}
+.add{
+    top:240px;
+    right:750px;
+    font-size:25px;
+    color:rgb(233, 0,0);
+}
+.sub{
+    top :320px;
+    right: 700px;
+    font-size:23px;
+    color:rgb(2, 2, 46)
+}
+.mul{
+    top:350px;
+    right:750px;
+    font-size:23px;
+    color:rgb(2, 2, 46)
+}
+.aip{
+    top:400px;
+    right:900px;
+    font-size:23px;
+    color:rgb(2, 2, 46);
+}
+.index{
+    top:400px;
+    right:550px;
+    font-size:23px;
+    color:rgb(233, 0,0)
+}
+.thomp{
+    top:440px;
+    right:650px;
+    font-size:23px;
+    color:rgb(255, 0,0);
+    
+    
+}
+.djn {
+    
+    width: 430px;
+    border:2px solid green;
+    padding: 170px;
+    margin: 20px;
+    top:220px;
+    right:500px;
+    height:1px;
+    background-color:rgba(5, 242, 5, 0.4)
+    
+}
+.lin {
+  border-left: 6px solid green;
+  height: 300px;
+  top:250px;
+  right:1200px;
+  
+
+}
+.ver{
+    transform:rotate(180deg);
+    writing-mode: vertical-rl;
+    top:250px;
+    right:1250px;
+    font-size: 30px;
+    
+}
+.second{
+  background-color:rgb(248, 248, 255);
+  width: 740px;
+  border: 3px solid black;
+  padding: 15px;
+  margin:25px;
+  top:600px;
+  left:210px;
+  color:red;
+}
+.b1{
+  width: 170px;
+  border: 3px solid black;
+  padding: 15px;
+  margin:25px;
+  height:200px;
+  top:670px;
+  right:1055px;
+}
+.te{
+    color:rgb(18, 18, 87);
+    align-content: justify;
+    text-align: justify;
+    font-family: calibri;
+    font-size:14.9px;
+    margin-left:430px;
+    margin-top: 470px;
+    margin-right: 600px;
+
+}
+
